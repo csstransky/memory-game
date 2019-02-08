@@ -4,7 +4,7 @@
 <p>Link back to the main domain: <a href="http://cstransky.me/">cstransky.me</a>.<br></p>
 <div className="row">
   <div className="column">
-    <h1 id="index-page">Join a Game</h1>
+    <h2 id="index-page">Join a Game</h2>
 
     <p>Enter room name: <input type="text" id="gameName"></p>
     <button onclick="joinGame()">Join Game</button>
