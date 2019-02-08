@@ -1,0 +1,52 @@
+
+Web Dev Fall 2018 HW04 Status
+
+Answer the following questions:
+
+1. What's your name?
+Cristian Stransky
+
+
+2. What's the URL of the github repo with your work for this HW?
+https://github.com/csstransky/memory-game
+
+
+3. What's the version number of your github release?
+
+
+
+4. What's the URL that you deployed to?
+hw05.cstransky.me
+
+
+
+5. Is your game functionality complete? If not, what's missing?
+Yes, everything works perfectly (though I really wanted to get genServer 
+working with this).
+
+Note: You get +1 to your score for every miss match. Getting a match won't
+affect your score.
+
+Note: You can click the board during a mismatch to speed up the delay and
+instantly start playing again.
+
+
+6. Is your game properly deployed? If not, what went wrong?
+Yes.
+
+
+
+7. How did you handle cards flipping back after a set timeout?
+After 1 second, the cards will come back. Clicking during the timeout delay
+will speed it up.
+
+I originally wanted to use genServer to handle flipbacks, but I had to settle
+with using Javascript, and tacking on two more objects onto my elixir game 
+state (the value of the two panels being flipped back). For whatever reason,
+my application.ex would not let me start the Memory.GameServer child process.
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Development
+ - Deployment
+ - Submission

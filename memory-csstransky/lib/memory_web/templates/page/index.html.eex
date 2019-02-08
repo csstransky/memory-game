@@ -1,0 +1,18 @@
+
+<p>Cristian Stransky</p>
+
+<div className="row">
+  <div className="column">
+    <h1 id="index-page">Join a Game</h1>
+
+    <p>Enter room name: <input type="text" id="gameName"></p>
+    <button onclick="joinGame()">Join Game</button>
+
+    <script>
+      function joinGame() {
+        gameName = document.getElementById("gameName").value
+        window.location = "/game/" + gameName;
+      }
+    </script>
+  </div>
+</div>
