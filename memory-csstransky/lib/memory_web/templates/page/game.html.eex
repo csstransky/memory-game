@@ -1,4 +1,3 @@
-
 <script>                
  window.gameName = "<%= @name %>";
 </script>
@@ -11,3 +10,4 @@
     </div>
   </div>
 </div>
+<p>Link back to game lobby: <a href="http://hw05.cstransky.me/">hw05.cstransky.me</a></p>
