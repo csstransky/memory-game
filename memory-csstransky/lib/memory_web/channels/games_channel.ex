@@ -27,7 +27,7 @@ defmodule MemoryWeb.GamesChannel do
     {:reply, {:ok, %{"game" => game}}, socket}
   end
 
-  def handle_in("flip_back", %{ "panel_index" => ll }, socket) do
+  def handle_in("flip_back", _map, socket) do
     name = socket.assigns[:name]
     game = Game.flip_back(socket.assigns[:game], ll)
     socket = assign(socket, :game, game)

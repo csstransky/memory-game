@@ -54,7 +54,7 @@ defmodule Memory.Game do
     |> Map.put(:flip_back_index, panel_index)
   end
 
-  def flip_back(game, panel_index) do
+  def flip_back(game) do
     if game.flip_back_string != "" do
       game
       |> set_panel_hidden(game.flip_back_index, true)
@@ -105,6 +105,8 @@ defmodule Memory.Game do
       score: 0,
       # These variables are so ugly I can't stand it
       # I can't wait to get rid of them when I get genServer working
+      # No hard feelings to Ben who suggested this, but I almost got away with
+      # only having 3 objects in my map
       flip_back_string: "",
       flip_back_index: -1,
     }

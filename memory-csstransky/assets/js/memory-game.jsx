@@ -32,13 +32,13 @@ class Memory extends React.Component {
       this.channel.push("flip", { panel_index: clicked_panel_index })
   			.receive("ok", resp => { this.setState(resp.game); });
       window.setTimeout(function () {
-        this.channel.push("flip_back", { panel_index: clicked_panel_index })
+        this.channel.push("flip_back")
           .receive("ok", resp => { this.setState(resp.game); });
       }.bind(this), 1000);
     }
     // Speeds up and unlocks the game right away
     else {
-      this.channel.push("flip_back", { panel_index: clicked_panel_index })
+      this.channel.push("flip_back")
         .receive("ok", resp => { this.setState(resp.game); });
     }
 	}

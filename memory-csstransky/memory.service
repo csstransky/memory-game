@@ -9,8 +9,8 @@ Restart=on-failure
 Environment=MIX_ENV=prod "PORT=5797"
 Environment=LANG=en_US.UTF-8
 
-WorkingDirectory=/home/memory-app/memory-csstransky
-ExecStart=/home/memory-app/memory-csstransky/start.sh
+WorkingDirectory=/home/memory-app2/memory-csstransky
+ExecStart=/home/memory-app2/memory-csstransky/start.sh
 
 [Install]
 WantedBy=multi-user.target
