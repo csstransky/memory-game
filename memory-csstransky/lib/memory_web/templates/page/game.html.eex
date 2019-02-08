@@ -1,4 +1,4 @@
-
+<p>Link back to game lobby: <a href="http://hw05.cstransky.me/">hw05.cstransky.me</a></p>
 <script>                
  window.gameName = "<%= @name %>";
 </script>
