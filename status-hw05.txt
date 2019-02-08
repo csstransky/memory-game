@@ -1,5 +1,4 @@
-
-Web Dev Fall 2018 HW04 Status
+Web Dev Fall 2018 HW05 Status
 
 Answer the following questions:
 
@@ -12,12 +11,11 @@ https://github.com/csstransky/memory-game
 
 
 3. What's the version number of your github release?
-
+v1.0
 
 
 4. What's the URL that you deployed to?
 hw05.cstransky.me
-
 
 
 5. Is your game functionality complete? If not, what's missing?
